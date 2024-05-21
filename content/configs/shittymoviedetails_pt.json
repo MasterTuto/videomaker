@@ -1,0 +1,13 @@
+{
+    "lang": "en-us",
+    "reddit": {
+        "name": "shittymoviedetails",
+        "readable_name": "Fun movie facts",
+        "subname_position": 0,
+        "select": ["title"],
+
+        "max_body_length": 4500,
+        "number_of_posts": 12,
+        "number_of_comments": 0
+    }
+}

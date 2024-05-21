@@ -1,0 +1,13 @@
+{
+    "lang": "pt-br",
+    "reddit": {
+        "name": "tiodopave",
+        "readable_name": "Piadas sem graça",
+        "subname_position": 1,
+        "select": ["title", "body"],
+
+        "max_body_length": 4500,
+        "number_of_posts": 12,
+        "number_of_comments": 0
+    }
+}

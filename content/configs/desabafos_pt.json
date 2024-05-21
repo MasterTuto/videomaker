@@ -1,0 +1,13 @@
+{
+    "lang": "pt-br",
+    "reddit": {
+        "name": "desabafos",
+        "subname_position": -1,
+        "readable_name": "Desabafos",
+        "select": ["title", "body"],
+
+        "max_body_length": 4500,
+        "number_of_posts": 3,
+        "number_of_comments": 0
+    }
+}

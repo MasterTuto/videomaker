@@ -1,0 +1,13 @@
+mutagen
+pydub
+librosa
+pytube
+moviepy
+pyrubberband
+soundfile
+praw
+deep_translator
+gTTS
+markdown
+selenium
+google-cloud-texttospeech

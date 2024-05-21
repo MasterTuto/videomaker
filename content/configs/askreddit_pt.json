@@ -1,0 +1,13 @@
+{
+    "lang": "en-us",
+    "reddit": {
+        "name": "AskReddit",
+        "readable_name": "Ask Reddit",
+        "subname_position": -1,
+        "select": ["title", "comments"],
+
+        "max_body_length": -1,
+        "number_of_posts": 1,
+        "number_of_comments": 11
+    }
+}

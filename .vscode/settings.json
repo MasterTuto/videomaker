@@ -1,0 +1,56 @@
+{
+    "json.schemas": [
+        {
+          "fileMatch": [
+            "content/configs/*.json"
+          ],
+          "schema": {
+            "$schema": "http://json-schema.org/schema",
+            "required": ["lang"],
+            "properties": {
+                "lang": {
+                    "type": "string",
+                    "anyOf": [
+                        { "const": "pt-br", },
+                        { "const": "en-us", },
+                    ]
+                },
+                "reddit": {
+                    "type": "object",
+                    "required": [
+                        "name",
+                        "readable_name",
+                        "subname_position",
+                        "select",
+                        "max_body_length",
+                        "number_of_posts",
+                        "number_of_comments"
+                    ],
+                    "properties": {
+                        "name": {"type": "string",},
+                        "readable_name": { "type": "string" },
+                        "subname_position": { "type": "number" },
+                        "select": {
+                            "type": "array",
+                            "contains": {
+                                "anyOf": [
+                                    {"const": "title"},
+                                    {"const": "comments"},
+                                    {"const": "body"},
+                                    {"const": "subname"}
+                                ]
+                            }
+                        },
+                        "max_body_length": { "type": "number", "maximum": 4500},
+                        "number_of_posts": { "type": "number", },
+                        "number_of_comments": { "type": "number", },   
+                    }
+                },
+                "channel_url": {
+                    "type": "string",
+                }
+            }
+          },
+        }
+      ]
+}

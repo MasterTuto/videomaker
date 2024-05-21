@@ -1,0 +1,13 @@
+{
+    "lang": "pt-br",
+    "reddit": {
+        "name": "PergunteReddit",
+        "readable_name": "Pergunte ao Reddit",
+        "subname_position": 0,
+        "select": ["title", "comments"],
+
+        "max_body_length": 4500,
+        "number_of_posts": 1,
+        "number_of_comments": 12
+    }
+}

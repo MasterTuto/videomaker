@@ -1,0 +1,6 @@
+TEMP_FOLDER = 'artifacts/temp'
+OUTPUT_FOLDER = 'artifacts/output'
+PERSISTENT_FOLDER = 'artifacts/persist'
+LOGINS_FOLDER = 'artifacts/logins'
+FONTS_FOLDER = 'content/fonts'
+CONFIGS_FOLDER = 'content/configs'
